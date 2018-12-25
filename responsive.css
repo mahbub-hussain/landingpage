@@ -1,0 +1,158 @@
+
+
+@media (max-width:991px){
+  .slide-show-inner-wrap>h1  {
+      font-size: 35px;
+  }
+
+
+
+}
+
+@media (max-width:358px){
+    .slider-src label {
+        right: 32px;
+    }
+}
+
+@media (max-width: 1199px)  {
+    
+
+    header {
+        height: 61px;
+    }
+  
+    .leptop-view-adress-col{
+        display: none;
+    }
+  
+    .adress-col{
+        display: none;
+    }
+    .dot-icon-menu{
+        display: block;
+    }
+    .leptop-view-login-col{
+        display: none;
+    }
+    .header-view a.navbar-brand {
+        margin: 0 auto;
+    }
+    .mobile-menu-active{
+        left:0;
+    }
+    
+    .contact-info{
+        margin-left:0px !important;
+    }
+  .nav-container{
+      display: none;
+  }
+    .adress-bar{
+        padding: 12px 0;
+        box-shadow:0 3px 11px 0 #000;
+        margin-bottom:1px; 
+        z-index: 99999;
+        top:0;
+        background: white;
+        position: fixed;
+    }
+   
+    .leptop-view figcaption{
+        top:65%;
+    }
+    figure:hover figcaption{
+        top:45%;
+       }
+       .lg-logo-hide{
+              display: none;
+       }
+       .lg-bottom-show{
+           display: block;
+       }
+  }
+  @media(min-width:1200px){
+  
+   
+      .leptop-view-adress-col
+      {
+          display: none;
+      }
+      .adress-col-active{
+          display: none !important;
+      }
+   
+    .menu-bar-icon{
+        display: none;
+    }
+    .header-view{
+        display: none;
+    }
+  }
+
+@media (max-width: 479px),(max-width:576px){
+
+    .navbar-brand{
+        display: none;
+    }
+    .footer-logo-brand{
+        display: block;
+    }
+  
+    .adress-bar {
+        height: 70px;
+        padding: 5px 0;
+    }
+    a.mobile-nav-brand{
+           display: block;
+           margin-left: 22px;
+    }
+
+}
+@media (max-width:767px){
+    body{
+        text-align: center;
+    }
+    
+    .agents-single-wrap,
+    .properties-inner-wrap,
+    .main-content-wrap {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .properties-inner-wrap figure img {
+        height: 350px;}
+    figcaption a.btn {
+        margin-top: 8px;
+        padding: 0 5px;
+        font-size: 14px;
+    }
+    .leptop-view figcaption {
+        top: 72%;;
+        background: #4e4e4e;
+        height: 100%;
+        padding-top:5px; 
+    }
+    figcaption p{
+        display: none;
+    }
+   
+       figure:hover figcaption{
+        top:72%;
+        transition: 0.3s  all
+       }
+    figure:hover figcaption a.btn{
+        margin-top: none;
+        font-size: 16px;
+        transition: 0.3s all;
+    }
+    #testimonials-wrap h2,
+    #form-container h2,
+    #properties-content-wrap h2,
+    #properties-tool-wrap h2{
+        font-size: 40px;
+    }
+    
+
+}
