@@ -5,13 +5,11 @@
       font-size: 35px;
   }
 
-
-
 }
 
 @media (max-width:358px){
     .slider-src label {
-        right: 32px;
+        right:58px;
     }
 }
 
