@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body{
     font-family: "PT Sans",sans-serif;
     font-size: 16px;
@@ -24,7 +27,7 @@ h2::after {
     background-color: orange;
     width: 37px;
     display: block;
-    margin-left: 49%;
+    margin-left: 48%;
     margin-top: 2%;
     height: 2px;
 }
@@ -791,7 +794,7 @@ figure:hover::before{
 
 #properties-tool-wrap{
     background: url(images/hw1.jpg) no-repeat center;
-    height: 100%;
+    background-size: 100% 100%;
     padding-top: 12%;
     color: white;
     text-align: center;
@@ -885,7 +888,7 @@ q::after{
 
 #form-container{
     background: url(images/form-bg.jpg) no-repeat center;
-    height:782px;
+    background-size: 100% 100%;
     color: white;
     text-align: center;
 }
@@ -895,6 +898,14 @@ form.form-wrapper {
 
 .form-inner-wrap{
     position: relative;
+}
+
+.form-inner-wrap input[type="submit"]{
+     background: orange;
+     color: white;
+     font-size: 20px;
+     width: 150px;
+     cursor: pointer;
 }
 
 .form-inner-wrap label{
@@ -914,7 +925,7 @@ form.form-wrapper {
 .form-inner-wrap textarea
 {
 
-color: #ababab;
+    color: #ababab;
     outline: 0;
     border: 1px solid #ababab;
     border-radius: 5px;
@@ -1093,6 +1104,13 @@ section.social-col {
   background-color: #BE3F48;
   padding: 20px;
   opacity: 0;
+  border-radius: 50%;
+  -ms-border-radius:50%;
+  -webkit-border-radius:50%;
+  -o-border-radius:50%;
+  -moz-border-radius:50%;
+  height: 60px;
+  width: 60px;
   z-index: 9999999;
   transition: all 0.4s ease-in-out 0s;
   -webkit-transition: all 0.4s ease-in-out 0s;
@@ -1105,3 +1123,8 @@ section.social-col {
   font-size: 18px;
   color: #fff;
 }
+i.fas.fa-arrow-up {
+    color: beige;
+    font-size: 25px;
+}
+
