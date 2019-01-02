@@ -48,12 +48,26 @@ $(document).ready(function(){
 
      
 
-     $('input').on('blur', function(){
-      if( !$(this).val() == "" ){
-        $(this).next().addClass('toggle-label');
-      } else {
-        $(this).next().removeClass('toggle-label');
+  var formFields = $('.form-group');
+  
+    formFields.each(function() {
+      var field = $(this);
+      var input = field.find('input');
+      var label = field.find('label');
+      
+      function checkInput() {
+        var valueLength = input.val().length;
+        
+        if (valueLength > 0 ) {
+          label.addClass('stay')
+        } else {
+              label.removeClass('stay')
+        }
       }
+      
+      input.change(function() {
+        checkInput()
+      })
     });
      
 
