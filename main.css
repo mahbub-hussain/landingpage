@@ -100,7 +100,7 @@ i.fas.fa-circle {
     font-size: 22px;
     margin-top:18px;
 }
-
+label.stay,
 textarea:focus + label,
 input:focus + label,
 input + label.toggle-label {
