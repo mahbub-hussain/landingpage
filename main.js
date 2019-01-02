@@ -48,7 +48,7 @@ $(document).ready(function(){
 
      
 
-  var formFields = $('.form-group');
+  var formFields = $('.form-inner-wrap');
   
     formFields.each(function() {
       var field = $(this);
